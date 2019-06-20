@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/JKZL.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/axios.mm.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="headers">
+        <div class="header">
+            <ul class="list01" style="display: flex">
+                <li>
+                    <a href="login.html" style="padding-left:0  ">搜狗商城</a>
+                </li>
+                <li>
+                    <a href="https://123.sogou.com/about/feedback.html">意见反馈</a>
+                </li>
+                <li>
+                    <a href="">收藏本站</a>
+                </li>
+            </ul>
+
+
+            <ul class="list02" style="display: flex">
+                <li style="display: flex">
+                    <a href="login.html" style="border-right:0" class="on-cli">登录</a>
+                    <a href="regrist.html" class="a-reg">注册</a>
+                    <span class="user" style="display: none">你好<a href="" class="btn">退出</a></span>
+
+                </li>
+                <li>
+                    <a href="https://mall.sogou.com/goods/scode">s码通道</a>
+                </li>
+                <li>
+                    <a href="">手机商城</a>
+                </li>
+                <li>
+                    <a
+                        href="https://chat56.live800.com/live800/chatClient/chatbox.jsp?companyID=1056730&configID=195273&jid=9447871852&s=1">在线客服</a>
+                </li>
+                <li>
+                    <a href="cart.html" style="padding:0 20px;border-right:0 ">购物车(0)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部 ------------------------------------------------------------------------------------------------>
+
+
+    <!-- 导航 ------------------------------------------------------------------------------------------------>
+    <div class="navs">
+        <div class="nav">
+            <a href="index.html"><img style="margin:20px 0" src="img/QQ图片20190524203523.jpg" /></a>
+            <ul style="display: flex;margin-left:150px " class="nav-list">
+                <li><a href="">首页</a></li>
+                <li class="active"><a href="">智能翻译</a></li>
+                <li class="active"><a href="">糖猫手表</a></li>
+                <li class="active"><a href="">糖猫配件</a></li>
+                <li><a href="">社区</a></li>
+            </ul>
+
+            <div class="panel">
+                <a href="">
+                    <img src="https://mall01.sogoucdn.com/image/2018/12/27/20181227141346_4288.png" />
+
+                </a>
+
+                <a href="">
+                    <img src="https://mall02.sogoucdn.com/image/2018/12/27/20181227141313_4287.png" />
+
+                </a>
+
+                <a href="">
+                    <img src="https://mall01.sogoucdn.com/image/2019/03/11/20190311124239_4553.jpg" />
+                </a>
+            </div>
+            <div class="panel">
+                <a href=""><img src="https://mall03.sogoucdn.com/image/2018/12/21/20181221190233_4185.png" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2018/12/21/20181221190434_4190.png" /></a>
+
+                <a href=""><img src="https://mall03.sogoucdn.com/image/2019/05/10/20190510173036_4959.jpg" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2019/05/21/20190521182056_6117.jpg" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2019/04/19/20190419115054_4807.jpg" /></a>
+
+            </div>
+            <div class="panel">
+                <a href=""><img src="https://mall01.sogoucdn.com/image/2018/12/27/20181227141346_4288.png" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2018/12/24/20181224120209_4242.png" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2019/04/19/20190419115054_4807.jpg" /></a>
+
+                <a href=""><img src="https://mall03.sogoucdn.com/image/2019/04/19/20190419115225_4808.jpg" /></a>
+
+                <a href=""><img src="https://mall02.sogoucdn.com/image/2019/04/19/20190419115054_4807.jpg" /></a>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- 导航 ------------------------------------------------------------------------------------------------>
+    <!-- 内容区 -------------------------------------------------------------------------------------------------->
+    <div class="contents" style="width: 1180px;height:100%;margin:0 auto;">
+        <p>
+            <a href="index.html">商城首页</a>
+            >
+            <a href="iten.html" class="name">${p.pname}</a>
+            >
+            <a href="iten.html" class="desc">${p.pdesc}</a>
+        </p>
+        <div style="display: flex;justify-content:space-around">
+            <div style="width: 500px;height:590px">
+                <div class="imgs" style="border: 1px solid black">
+                    <img src="${p.pimg}" style="width: 498px;height:498px" />
+                </div>
+                <ul class="img-list" style="border: 1px solid black;margin-top:8px;display: flex ">
+                    <li><img src="${p.pimg}" style="width: 76px; height:76px;" /></li>
+                    <li><img src="${p.pimg}" style="width: 76px; height:76px;" /></li>
+                    <li><img src="${p.pimg}" style="width: 76px; height:76px;" /></li>
+                    <li><img src="${p.pimg}" style="width: 76px; height:76px;" /></li>
+                    <li><img src="${p.pimg}" style="width: 76px; height:76px;" /></li>
+                </ul>
+            </div>
+
+            <div style="width:620px;height: 492px;">
+                <h1 class="desc-01" style="height:40px;font-size: 28px;line-height: 40px">$p{p.pdesc}</h1>
+                <p style="width: 620px;font-size: 16px;line-height: 16px;color: #8c8c8c;margin-top: 15px;">
+                    sssssssssssssssss</p>
+                <p style="margin-top: 25px;position: relative;">
+                    <span class="price-02">￥ ${p.pprice}
+                    </span>
+                    <span style="display: inline-block;width: 44px;height: 22px;line-height: 22px;border-right:
+                        2px;background: #f77168;color: #fff;text-align: center;margin-left: 20px;position: relative;
+                        bottom: 4px;border-radius: 2px;font-size: 22px;font-weight: normal">包邮</span>
+                </p>
+
+                <p style="margin-top: 25px;color: #262626;font-size: 16px;">颜色</p>
+                <a href="" style="font-size:16px;color:#262626;margin: 20px 20px 0 0;">蓝色</a>
+                <a href="" style="font-size:16px;color:#262626;margin: 20px 20px 0 0;">黑色</a>
+                <p style="margin-top: 25px;color: #262626;font-size: 16px;">数量</p>
+
+                <div style="display: flex;margin:20px 0;">
+                    <input type="button" value='-' class="sub"
+                        style="display: block;width:48px;height: 48px;border: 1px solid #d9d9d9;">
+
+
+                    <input type="text" value='1' style="width:70px;height: 48px;" class="pnum" />
+
+
+                    <input type="button" value='+' class="add"
+                        style="display: block;width:48px;height: 48px;border: 1px solid #d9d9d9;">
+                </div>
+                <div style="display: flex;">
+                   
+                        <input type="button" value="加入购物车" class="btt"
+                            style="font-size: 28px;line-height: 40px;font-weight:normal;border:none;width:188px;height:48px;
+                            border: red 1px solid;margin-right:10px;text-align: center" />
+                    
+                    
+                        <input type="button" value="立即购买" class="cart-add"
+                            style="font-size: 28px;line-height: 40px;font-weight:normal;
+                            width:188px;height:48px;border: red 1px solid;margin-right:10px;text-align: center;background:red" />
+                   
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 内容区 -------------------------------------------------------------------------------------------------->
+    <script src="js/item.js"></script>
+    <script src="js/gg2.js"></script>
+
+
+</body>
+
+</html>

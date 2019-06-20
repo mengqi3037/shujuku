@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+/* logo**********************************************************************************************/
+.cons {
+    width: 100%;
+    background: #1a1d23;
+}
+
+.con {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.con .a-log {
+    display: block;
+    height: 560px;
+
+}
+
+.reg {
+    height: 350px;
+    width: 240px;
+    background: #f5f5f5;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    padding: 0 55px;
+}
+
+
